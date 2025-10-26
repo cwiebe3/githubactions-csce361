@@ -118,7 +118,7 @@ public class Exponent
     [TestMethod]
     public void Power_Valid_Wiebe()
     {
-        Assert.AreEqual(9, Program.Power("3", "1"));
+        Assert.AreEqual(27, Program.Power("3", "3"));
         Assert.AreEqual(64, Program.Power("8", "2"));
         Assert.AreEqual(1024, Program.Power("2", "10"));
     }

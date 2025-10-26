@@ -51,9 +51,9 @@ METHODS:
   - FULL_NAME: Exponent
     NAME: Power
     VALIDS:
-      - EXPECT: 9
+      - EXPECT: 27
         X: 3
-        Y: 1
+        Y: 3
       - EXPECT: 64
         X: 8
         Y: 2
