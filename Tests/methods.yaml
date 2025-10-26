@@ -1,0 +1,62 @@
+_out_file: UnitTests.cs
+METHODS:
+  - FULL_NAME: Addition
+    NAME: Add
+    VALIDS:
+      - EXPECT: 3
+        X: 1
+        Y: 2
+      - EXPECT: 5
+        X: 3
+        Y: 2
+      - EXPECT: 12
+        X: 5
+        Y: 7
+  - FULL_NAME: Subtraction
+    NAME: Subtract
+    VALIDS:
+      - EXPECT: 1
+        X: 2
+        Y: 1
+      - EXPECT: 5
+        X: 12
+        Y: 7
+      - EXPECT: -10
+        X: 20
+        Y: 30
+  - FULL_NAME: Multiplication
+    NAME: Multiply
+    VALIDS:
+      - EXPECT: 6
+        X: 3
+        Y: 2
+      - EXPECT: 12
+        X: 4
+        Y: 3
+      - EXPECT: -10
+        X: 5
+        Y: -2
+  - FULL_NAME: Division
+    NAME: Divide
+    VALIDS:
+      - EXPECT: 3
+        X: 6
+        Y: 2
+      - EXPECT: 12
+        X: 36
+        Y: 3
+      - EXPECT: -1
+        X: -5
+        Y: 5
+  - FULL_NAME: Exponent
+    NAME: Power
+    VALIDS:
+      - EXPECT: 9
+        X: 3
+        Y: 1
+      - EXPECT: 64
+        X: 8
+        Y: 2
+      - EXPECT: 1024
+        X: 2
+        Y: 10
